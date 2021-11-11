@@ -3,16 +3,17 @@ import facebook from '../img/faceb.svg';
 import twitter from '../img/twit.svg';
 import wifi from '../img/wifi.svg';
 
+const links = [
+  "Aviso Legal", "Política privacidad", "Gastos de envío",
+  "Sistemas de pago", "Plazos de entrega", "Devoluciones"
+]
+
 export class Footer extends Component {
   render() {
     return (
       <footer>
-        <a href='#'>Aviso Legal</a>
-        <a href='#'>Política privacidad</a>
-        <a href='#'>Gastos de envío</a>
-        <a href='#'>Sistemas de pago</a>
-        <a href='#'>Plazos de entrega</a>
-        <a href='#'>Devoluciones</a>
+        {links.map((link) => <a href='#'>{link}</a>)}
+        
         <div class='media'>
           <a href='#'>
             <img src={facebook} alt='' />

@@ -3,7 +3,6 @@ import Pagination from './subcomponents/Pagination';
 import Product from './subcomponents/Product';
 
 //Don't have enougth energy to import them all
-//And couldn't find any efficient way in my 5s search
 import helmet from './../img/casco0.jpg';
 
 export class Products extends Component {

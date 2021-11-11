@@ -13,6 +13,7 @@ export class Categories extends Component {
         <aside>
           <a href='#'>Categorías</a>
           {categories}
+          {/* {categories.map((tag)=>{<Categorie name='Botas' />})} */}
         </aside>
       </>
     );
